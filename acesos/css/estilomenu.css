@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image: url(../imagen/hotbook.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+header{
+    margin: auto;
+    width: 500px;
+    font-family: 'Roboto', sans-serif;
+}
+ul, ol{
+    list-style: none;
+}
+.nav li a{
+background-color: rgba(0, 128, 225, 0.5);
+color: white;
+text-decoration: none;
+padding: 20px 25px;
+display: block;
+}
+.nav li a:hover{
+    background-color: #46A2Fd;
+}
+.nav > li{
+    float: left;
+}
+.nav li ul{
+    display:none;
+    position: absolute;
+    min-width: 150px;
+}
+.nav li:hover > ul{
+    display: block;
+}
+header{
+    width: 90%; max-width: 400px; margin: auto;
+}
+header nav{
+    background: #528fd5; margin-top: 20px; position: relative; 
+}
+header nav ul{
+    list-style: none; padding: 0; margin: 0; overflow: hidden;
+}
+header nav > ul >li{
+    float: left;
+}
+header nav ul li a{
+    text-decoration: none; color: blanchedalmond; display: block; padding: 10px 20px;
+}
+header nav ul li a:hover{
+    background: #3669a3;
+}
+header nav> ul> li:hover div{
+    display: table;
+}
+header nav ul li div{
+    width: 1000px; position: absolute; left: 0; background: #ccc; box-sizing: border-box; display: none;
+}
+h1{
+    margin-right: auto;
+    margin-left: auto;
+    color: cornflowerblue;
+}
+footer{
+    position: relative;
+    margin-left: 500px;
+    top: 390px;
+}
+legend {
+    margin-right: 0%;
+    margin-left: 0%;
+    color: cornflowerblue;
+}
+button{
+    background:cornflowerblue;
+    margin-right: 7%;
+    margin-left: 7%;
+    color: black;
+    font-size: 20px;
+}
+p{
+    margin-left: 4%;
+    color: cornflowerblue;
+}
+.section{
+    position: relative;
+    top: 375px;
+    margin-left: 100px;
+}
+.copyright{
+    top: 400px;
+}
